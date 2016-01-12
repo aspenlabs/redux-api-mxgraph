@@ -1,9 +1,9 @@
-redux-api-middleware
+redux-api-mxgraph
 ====================
 
-[![Build Status](https://travis-ci.org/agraboso/redux-api-middleware.svg?branch=master)](https://travis-ci.org/agraboso/redux-api-middleware) [![Coverage Status](https://coveralls.io/repos/agraboso/redux-api-middleware/badge.svg?branch=master&service=github)](https://coveralls.io/github/agraboso/redux-api-middleware?branch=master)
+[![Build Status](https://travis-ci.org/aspenlabs/redux-api-mxgraph.svg?branch=master)](https://travis-ci.org/aspenlabs/redux-api-mxgraph) [![Coverage Status](https://coveralls.io/repos/aspenlabs/redux-api-mxgraph/badge.svg?branch=master&service=github)](https://coveralls.io/github/aspenlabs/redux-api-mxgraph?branch=master)
 
-[Redux middleware](http://rackt.github.io/redux/docs/advanced/Middleware.html) for calling an API.
+[Redux middleware](http://rackt.github.io/redux/docs/advanced/Middleware.html) for calling an mxGraph API.
 
 ## Table of contents
 
@@ -86,7 +86,7 @@ We have tiptoed around error-handling issues here. For a thorough walkthrough of
 
 ## Installation
 
-`redux-api-middleware` is available on [npm](https://www.npmjs.com/package/redux-api-middleware).
+`redux-api-middleware` is available on [npm](https://www.npmjs.com/package/redux-api-mxgraph).
 
 ```
 $ npm install redux-api-middleware --save

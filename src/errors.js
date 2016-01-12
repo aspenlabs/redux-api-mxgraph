@@ -6,12 +6,12 @@
  * @param {array} validationErrors - an array of validation errors
  */
 class InvalidRSAA extends Error {
-  constructor(validationErrors) {
-    super();
-    this.name = 'InvalidRSAA';
-    this.message = 'Invalid RSAA';
-    this.validationErrors = validationErrors;
-  }
+    constructor(validationErrors) {
+        super();
+        this.name = 'InvalidRSAA';
+        this.message = 'Invalid RSAA';
+        this.validationErrors = validationErrors;
+    }
 }
 
 /**
@@ -22,11 +22,11 @@ class InvalidRSAA extends Error {
  * @param {string} message - the error message
  */
 class InternalError extends Error {
-  constructor(message) {
-    super();
-    this.name = 'InternalError';
-    this.message = message;
-  }
+    constructor(message) {
+        super();
+        this.name = 'InternalError';
+        this.message = message;
+    }
 }
 
 /**
@@ -37,11 +37,11 @@ class InternalError extends Error {
  * @param {string} message - the error message
  */
 class RequestError extends Error {
-  constructor(message) {
-    super();
-    this.name = 'RequestError';
-    this.message = message;
-  }
+    constructor(message) {
+        super();
+        this.name = 'RequestError';
+        this.message = message;
+    }
 }
 
 /**
@@ -55,14 +55,14 @@ class RequestError extends Error {
  *  'Content-Type' header signals a JSON response
  */
 class ApiError extends Error {
-  constructor(status, statusText, response) {
-    super();
-    this.name = 'ApiError';
-    this.status = status;
-    this.statusText = statusText;
-    this.response = response;
-    this.message = `${status} - ${statusText}`;
-  }
+    constructor(status, statusText, response) {
+        super();
+        this.name = 'ApiError';
+        this.status = status;
+        this.statusText = statusText;
+        this.response = response;
+        this.message = `${status} - ${statusText}`;
+    }
 }
 
 export { InvalidRSAA, InternalError, RequestError, ApiError };

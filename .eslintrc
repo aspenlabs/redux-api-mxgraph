@@ -5,6 +5,7 @@
     "browser": true,
     "es6": true
   },
+    "root": true,
   "ecmaFeatures": {
     "experimentalObjectRestSpread": true,
     "modules": true
@@ -17,10 +18,10 @@
     "no-undef": 2,
     "no-console": 1,
     "no-nested-ternary": 2,
-    "indent": [2, 2],
+    "indent": [1, 4, {"SwitchCase": 1}],
     "quotes": [2, "single"],
     "brace-style": [2, "1tbs", { "allowSingleLine": true }],
-    "object-curly-spacing": [2, "always"],
+    "object-curly-spacing": [1, "always"],
     "eol-last": 2,
     "padded-blocks": [2, "never"],
     "space-before-function-paren": [2, { "anonymous": "always", "named": "never" }],

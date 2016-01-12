@@ -36,14 +36,14 @@ import { getJSON } from './util';
 import { apiMiddleware } from './middleware';
 
 export {
-  CALL_API,
-  isRSAA,
-  validateRSAA,
-  isValidRSAA,
-  InvalidRSAA,
-  InternalError,
-  RequestError,
-  ApiError,
-  getJSON,
-  apiMiddleware
+    CALL_API,
+    isRSAA,
+    validateRSAA,
+    isValidRSAA,
+    InvalidRSAA,
+    InternalError,
+    RequestError,
+    ApiError,
+    getJSON,
+    apiMiddleware
 };
